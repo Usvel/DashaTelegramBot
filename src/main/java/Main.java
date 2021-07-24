@@ -12,7 +12,7 @@ public class Main {
         DefaultBotOptions botOptions  = ApiContext.getInstance(DefaultBotOptions.class);
 
         //botOptions.setProxyType(DefaultBotOptions.ProxyType.SOCKS5);
-        botOptions.setProxyHost("https://usvelbot.herokuapp.com/");
+        botOptions.setProxyHost("localhost");
         botOptions.setProxyPort(9150);
 
         Bot bot = new Bot(botOptions);
